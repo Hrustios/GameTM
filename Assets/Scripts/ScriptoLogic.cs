@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScriptoLogic : MonoBehaviour
 {
@@ -11,6 +12,11 @@ public class ScriptoLogic : MonoBehaviour
     [SerializeField]
     public GameObject _Canvas;
 
+    void Awake()
+    {
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 120;
+    }
     public void ToLevel()
     {
         CamMen.SetActive(false);
@@ -29,5 +35,13 @@ public class ScriptoLogic : MonoBehaviour
     public void Canva()
     {
         _Canvas.SetActive(true) ;
+    }
+    public void Vihod()
+    {
+        Application.Quit(); 
+    }
+    public void Rest()
+    {
+        SceneManager.LoadScene(0);
     }
 }

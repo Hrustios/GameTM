@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class YPos : MonoBehaviour
 {
-    public class ResetOnFall : MonoBehaviour
-    {
+   
         public Transform targetTransform; // Пустышка, к которой будет возвращаться объект
 
         private void Update()
@@ -20,5 +19,5 @@ public class YPos : MonoBehaviour
                 }
             }
         }
-    }
+    
 }

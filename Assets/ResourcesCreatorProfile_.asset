@@ -15,13 +15,12 @@ MonoBehaviour:
   createAllFolders: 0
   createDedicatedScene: 1
   sourceCollection: {fileID: 0}
-  additionalSettings:
-  - {fileID: 11400000, guid: 9574d061a8ce7d54fbc5b2c72f20d8fb, type: 2}
+  additionalSettings: []
   settingsSaver: {fileID: 11400000, guid: 3b5b61540225d9b4e9ddd3bf24a1c4ab, type: 2}
   settingsMenu_UGUI: {fileID: 3826061034815170388, guid: bdf11ddb6c3c75a4e99057a9b677f81f, type: 3}
   menuLayoutTemplate: {fileID: 2722620333566100855, guid: 4f5e3f153d0b5a143aad4a9c4c15cb46, type: 3}
   styleProfile: {fileID: 11400000, guid: 4d1861c5f0acbde4787e615f9d9d3f39, type: 2}
-  inputElementProviders_UGUI: {fileID: 11400000, guid: 48b06bac6a4042f4599f9e661f7023ff, type: 2}
+  inputElementProviders_UGUI: {fileID: 11400000, guid: 270a9dca5d31ef94b8d03c3cbaa827d9, type: 2}
   settingsMenu_UIT: {fileID: 0}
   menuDocuments: []
   menuStyleSheets: []
